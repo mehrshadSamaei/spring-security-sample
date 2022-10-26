@@ -1,2 +1,10 @@
-package com.example.testspringsecurity.controller;public class UserController {
+package com.example.testspringsecurity.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/user")
+public class UserController {
+
 }
